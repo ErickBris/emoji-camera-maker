@@ -1,0 +1,282 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+<!--     <RelativeLayout -->
+<!--         android:id="@+id/capture_id_rl" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" > -->
+
+<!--         <SurfaceView -->
+<!--             android:id="@+id/surfaceView" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="match_parent" /> -->
+
+
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/imageview_tatoo" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="match_parent" -->
+<!--                 android:layout_centerInParent="true" -->
+<!--                 android:adjustViewBounds="true" -->
+<!--                 android:scaleType="centerInside" -->
+<!--                 android:visibility="invisible" -->
+<!--                 android:src="@drawable/icon_1" /> -->
+
+<!--         <LinearLayout -->
+<!--             android:id="@+id/layout_buttons" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:orientation="vertical" -->
+<!--             android:weightSum="100" > -->
+
+<!--             <RelativeLayout -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="0dp" -->
+<!--                 android:layout_weight="45" > -->
+
+<!--                 <ImageView -->
+<!--                     android:id="@+id/imageview_gallery" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_above="@+id/textview_gallery" -->
+<!--                     android:src="@drawable/ic_action_picture" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textview_gallery" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_alignParentBottom="true" -->
+<!--                     android:layout_centerInParent="true" -->
+<!--                     android:text="@string/gallery" -->
+<!--                     android:textSize="20sp" /> -->
+<!--             </RelativeLayout> -->
+
+<!--             <RelativeLayout -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="0dp" -->
+<!--                 android:layout_weight="10" > -->
+<!--             </RelativeLayout> -->
+
+<!--             <RelativeLayout -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="0dp" -->
+<!--                 android:layout_weight="45" > -->
+
+<!--                 <ImageView -->
+<!--                     android:id="@+id/imageview_camera" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_alignParentTop="true" -->
+<!--                     android:src="@drawable/ic_action_camera" /> -->
+
+<!--                 <TextView -->
+<!--                     android:id="@+id/textview_camera" -->
+<!--                     android:layout_width="wrap_content" -->
+<!--                     android:layout_height="wrap_content" -->
+<!--                     android:layout_below="@+id/imageview_camera" -->
+<!--                     android:layout_centerInParent="true" -->
+<!--                     android:text="@string/camera" -->
+<!--                     android:textSize="20sp" /> -->
+<!--             </RelativeLayout> -->
+<!--         </LinearLayout> -->
+<!--     </RelativeLayout> -->
+
+<!--     <ListView -->
+<!--         android:id="@+id/list_tatoo" -->
+<!--         android:layout_width="80dp" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_alignParentLeft="true" -->
+<!--         android:background="@drawable/list_background" -->
+<!--         android:scrollbars="none" > -->
+<!--     </ListView> -->
+
+<!--     <RelativeLayout -->
+<!--         android:id="@+id/layout_capture_image" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_toLeftOf="@+id/linear" -->
+<!--         android:visibility="gone" > -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/imageview_front_camera" -->
+<!--             android:layout_width="60dp" -->
+<!--             android:layout_height="60dp" -->
+<!--             android:layout_alignParentTop="true" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:src="@drawable/front_camera" /> -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/imageview_capture" -->
+<!--             android:layout_width="100dp" -->
+<!--             android:layout_height="100dp" -->
+<!--             android:layout_centerInParent="true" -->
+<!--             android:src="@drawable/capture_image1" /> -->
+<!--     </RelativeLayout> -->
+
+<!--     <LinearLayout -->
+<!--         android:id="@+id/linear" -->
+<!--         android:layout_width="80dp" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:layout_alignParentRight="true" -->
+<!--         android:background="@drawable/layout_background" -->
+<!--         android:orientation="vertical" -->
+<!--         android:weightSum="100" > -->
+
+<!--         <RelativeLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="0dp" -->
+<!--             android:layout_margin="5dp" -->
+<!--             android:layout_weight="20" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/imageview_delete" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_above="@+id/delete" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:src="@drawable/icon_delete" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/delete" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentBottom="true" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:text="@string/delete" -->
+<!--                 android:textColor="@color/white" -->
+<!--                 android:textSize="14sp" /> -->
+<!--         </RelativeLayout> -->
+
+<!--         <RelativeLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="0dp" -->
+<!--             android:layout_margin="5dp" -->
+<!--             android:layout_weight="20" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/imageview_gallery1" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_above="@+id/delete" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:src="@drawable/icon_gallery" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/delete" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentBottom="true" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:text="@string/gallery" -->
+<!--                 android:textColor="@color/white" -->
+<!--                 android:textSize="14sp" /> -->
+<!--         </RelativeLayout> -->
+
+<!--         <RelativeLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="0dp" -->
+<!--             android:layout_margin="5dp" -->
+<!--             android:layout_weight="20" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/imageview_share" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_above="@+id/textview_share" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:src="@drawable/icon_share" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/textview_share" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentBottom="true" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:text="@string/share" -->
+<!--                 android:textColor="@color/white" -->
+<!--                 android:textSize="14sp" /> -->
+<!--         </RelativeLayout> -->
+
+<!--         <RelativeLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="0dp" -->
+<!--             android:layout_margin="5dp" -->
+<!--             android:layout_weight="20" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/imageview_save" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_above="@+id/delete" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:src="@drawable/icon_save" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/delete" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentBottom="true" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:text="@string/save" -->
+<!--                 android:textColor="@color/white" -->
+<!--                 android:textSize="14sp" /> -->
+<!--         </RelativeLayout> -->
+
+<!--         <RelativeLayout -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="0dp" -->
+<!--             android:layout_margin="5dp" -->
+<!--             android:layout_weight="20" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/imageview_camera" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_above="@+id/delete" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:src="@drawable/icon_camera" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/delete" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:layout_alignParentBottom="true" -->
+<!--                 android:layout_centerHorizontal="true" -->
+<!--                 android:text="@string/camera" -->
+<!--                 android:textColor="@color/white" -->
+<!--                 android:textSize="14sp" /> -->
+<!--         </RelativeLayout> -->
+<!--     </LinearLayout> -->
+</RelativeLayout>
